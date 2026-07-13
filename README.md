@@ -2,7 +2,7 @@
 
 A collection of my Python work, including daily practice from The Complete Python Pro Bootcamp (Udemy/100 Days of Code) and other self-directed projects.
 
-## Complete Python Pro Bootcamp — Daily Progress
+## Complete Python Pro Bootcamp — Beginner Section (Days 1-14)
 
 | Day | Project | Concepts Practiced |
 |---|---|---|
@@ -20,12 +20,20 @@ A collection of my Python work, including daily practice from The Complete Pytho
 | [Day 12](./complete-python-pro-bootcamp/Day%2012) | Number Guessing Game | global variables, scope, namespaces |
 | [Day 13](./complete-python-pro-bootcamp/Day%2013) | Debugging Practice | using a debugger, reproducing/fixing bugs |
 | [Day 14](./complete-python-pro-bootcamp/Day%2014) | Higher or Lower Game | functions, game state management |
-| [Day 15](./complete-python-pro-bootcamp/Day%2015) | Coffee Machine | functions, resource tracking, conditional logic |
-| Day 16+ | *In progress* | *(intermediate section — updated as completed)* |
+
+## Intermediate Section — Standalone Projects (Day 15+)
+
+Starting with Day 15, the course scaffolds each project as its own standalone folder at the repo root, rather than nested under `complete-python-pro-bootcamp/Day N/`. Projects get progressively more complex from here.
+
+| Day | Project | Concepts Practiced |
+|---|---|---|
+| [Day 15 — Coffee Machine](./CoffeeMachine) | Coffee Machine simulation | functions, resource tracking, conditional logic, OOP intro |
+| *(add new rows here as each day is completed)* | | |
 
 ## Structure
 
-Each `Day N/` folder contains that day's project(s) plus smaller practice exercises from the same lesson.
+- `complete-python-pro-bootcamp/Day N/` — beginner section (Days 1-14), each folder containing that day's project(s) plus practice exercises
+- Top-level project folders (e.g. `CoffeeMachine/`) — intermediate section (Day 15+), one standalone folder per project
 
 ## About
 
