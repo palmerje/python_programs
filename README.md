@@ -28,7 +28,7 @@ Starting with Day 15, the course scaffolds each project as its own standalone fo
 | Day | Project | Concepts Practiced |
 |---|---|---|
 | [Day 15 — Coffee Machine](./CoffeeMachine) | Coffee Machine simulation | functions, resource tracking, conditional logic, OOP intro |
-| *(add new rows here as each day is completed)* | | |
+| [Day 16 - OOP Coffee Machine](./oop-coffee-machine-start) | Object Oriented Coffee Machine Simulation | object oriented programming |
 
 ## Structure
 
