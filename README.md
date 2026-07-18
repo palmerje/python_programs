@@ -29,13 +29,14 @@ Starting with Day 15, the course scaffolds each project as its own standalone fo
 |---|---|---|
 | [Day 15 — Coffee Machine](./CoffeeMachine) | Coffee Machine simulation | functions, resource tracking, conditional logic, OOP intro |
 | [Day 16 - OOP Coffee Machine](./oop-coffee-machine-start) | Object Oriented Coffee Machine Simulation | object oriented programming |
-|[Day 17 - QuizGame](./QuizGame)| True/False Trivia Game | Class Constructors, data manipulation |
-|[Day 18 - HirstPainting](./HirstPainting)| Hirst Painting Generator | Turtle package, Graphical User Interfaces |
+| [Day 17 - QuizGame](./QuizGame) | True/False Trivia Game | Class Constructors, data manipulation |
+| [Day 18 - HirstPainting](./HirstPainting) | Hirst Painting Generator | Turtle package, Graphical User Interfaces |
 
 ## Structure
 
 - `complete-python-pro-bootcamp/Day N/` — beginner section (Days 1-14), each folder containing that day's project(s) plus practice exercises
-- Top-level project folders (e.g. `CoffeeMachine/`) — intermediate section (Day 15+), one standalone folder per project
+- `complete-python-pro-bootcamp/day-N-start/` — daily warm-up/practice scaffolding files for Day 15+ (the smaller exercises each lesson includes alongside its main project)
+- Top-level project folders (e.g. `CoffeeMachine/`, `QuizGame/`, `HirstPainting/`) — the main named project for each Day 15+ lesson, kept standalone at the repo root
 
 ## About
 
