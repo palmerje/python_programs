@@ -1,6 +1,7 @@
+import turtle
 from turtle import Turtle, Screen
 import random
-
+turtle.colormode(255)
 timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
 timmy_the_turtle.color("red")
@@ -40,18 +41,32 @@ colors = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaG
 #     timmy_the_turtle.color(random.choice(colors))
 #     draw_shape(shape_side_n)
 
+# TODO method to generate a random color
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    return (r, g, b)
+
 # TODO Random walk with random colors
-direction = [0, 90, 180, 270]
+# direction = [0, 90, 180, 270]
+# def random_walk():
+#     timmy_the_turtle.setheading(random.choice(direction))
+#     timmy_the_turtle.forward(30)
+#
+# timmy_the_turtle.speed(0)
+# timmy_the_turtle.pensize(10)
+# for _ in range(1000):
+#     timmy_the_turtle.color(random_color())
+#     random_walk()
 
-def random_walk():
-    timmy_the_turtle.setheading(random.choice(direction))
-    timmy_the_turtle.forward(30)
-
+# TODO Draw a spirograph with turtle
 timmy_the_turtle.speed(0)
-timmy_the_turtle.pensize(10)
-for _ in range(1000):
-    timmy_the_turtle.color(random.choice(colors))
-    random_walk()
+for _ in range(120):
+    timmy_the_turtle.color(random_color())
+    timmy_the_turtle.circle(100)
+    timmy_the_turtle.left(3)
+
 
 
 screen = Screen()
