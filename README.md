@@ -32,6 +32,7 @@ Starting with Day 15, the course scaffolds each project as its own standalone fo
 | [Day 17 - QuizGame](./QuizGame) | True/False Trivia Game | Class Constructors, data manipulation |
 | [Day 18 - HirstPainting](./HirstPainting) | Hirst Painting Generator | Turtle package, Graphical User Interfaces |
 | [Day 19 - TurtleRace](./TurtleRace) | Turtle Racing Game | Coordinate System, multiple object usage |
+| [Day 20/21 - SnakeGame](./Snake_Game) | Classic Snake Game | Class Inheritance, Tuples, Slicing |
 
 ## Structure
 
