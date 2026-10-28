@@ -34,6 +34,7 @@ Starting with Day 15, the course scaffolds each project as its own standalone fo
 | [Day 19 - TurtleRace](./TurtleRace) | Turtle Racing Game | Coordinate System, multiple object usage |
 | [Day 20/21 - SnakeGame](./Snake_Game) | Classic Snake Game | Class Inheritance, Tuples, Slicing |
 | [Day 22 - Pong](./Pong) | Pong Game | Class Inheritance, Time, Position |
+| [Day 23 - Turtle Crossing](./Turtle_Crossing) | Turtle Crossing Game | Classic Frogger style game |
 
 ## Structure
 
